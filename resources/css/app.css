@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+[x-cloak] {
+    display: none;
+}
+
+.rarity-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: -15px; /* Adjust placement below image */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.common {
+    background-color: #e67e22; /* Orange */
+    color: white;
+}
+
+.secret {
+    background-color: #6a1b9a; /* Purple */
+    color: white;
+}
+
+.super-secret {
+    background-color: #f4b18e; /* Light Orange */
+    color: black;
+}
+
+.purchase-label {
+    color: #d35400;
+    font-weight: bold;
+}
+
+.card-body {
+    font-family: "Times New Roman", Times, serif;
+}
